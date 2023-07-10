@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family:'Ubuntu', sans-serif;
+}
+.bannerbgimage{
+    height: 100vh;
+    background:url("images/p1.jpg") ;
+    background-size: cover;
+    position: relative;
+}
+.bannertext{
+    text-align:right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+}
+.bannertitle{
+    font-size: 3rem;
+}
+.bannerdesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #d87093;
+    border: 2px solid #9acd32;
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border:2px solid yellowgreen;
+}
+.card-img-top{
+    height: 50vh;
+}
+.mt-100{	
+	margin-top:100px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: 500px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 1px;
+}
+.card-header{	
+	background-color: #fff;
+}
+.card-body h4{
+	color: #545b62;
+}
+.favicon{
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    background-image: url(images/android-chrome-512x512.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+}
